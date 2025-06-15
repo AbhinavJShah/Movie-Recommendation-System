@@ -1,39 +1,85 @@
-Movie Recommendation System
+<h1 align="center">
+  <br>
+  <a href="https://github.com/AbhinavJShah/Movie-Recommendation-System">
+    <img src="https://raw.githubusercontent.com/AbhinavJShah/Movie-Recommendation-System/main/assets/logo.png" alt="Movie Recommendation System" width="200">
+  </a>
+  <br>
+  Movie Recommendation System
+  <br>
+</h1>
 
-Description:
-This project is a Content-Based Movie Recommendation System that suggests movies similar to a selected movie. 
-It uses movie metadata like genres, cast, crew, keywords, and overview to find similar movies.
-The system is deployed with a simple user interface using Streamlit.
+<h4 align="center">
+  A smart and personalized movie recommendation system built using Python and machine learning techniques.
+</h4>
 
-Technologies Used:
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- NLTK
-- Streamlit
+<p align="center">
+  <a href="https://github.com/AbhinavJShah/Movie-Recommendation-System/releases">
+    <img src="https://img.shields.io/github/v/release/AbhinavJShah/Movie-Recommendation-System" alt="Release">
+  </a>
+  <a href="https://github.com/AbhinavJShah/Movie-Recommendation-System/issues">
+    <img src="https://img.shields.io/github/issues/AbhinavJShah/Movie-Recommendation-System" alt="Issues">
+  </a>
+  <a href="https://github.com/AbhinavJShah/Movie-Recommendation-System/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/AbhinavJShah/Movie-Recommendation-System" alt="License">
+  </a>
+</p>
 
-How to Run:
-1. Install the required libraries:
-   pip install -r requirements.txt
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#technologies-used">Technologies Used</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
 
-2. Run the Streamlit app:
-   streamlit run app.py
+---
 
-Project Files:
-- app.py : Streamlit frontend application.
-- movie_recommender.ipynb : Jupyter Notebook with data processing and model building.
-- movies.csv : Final processed movie metadata.
-- requirements.txt : List of required Python packages.
-- README.txt : Project documentation.
+## 🎬 Key Features
 
-Working:
-- The dataset from TMDB is processed by combining important features.
-- A "tags" feature is created that combines overview, genres, keywords, cast, and crew.
-- Text processing and feature extraction are done using CountVectorizer.
-- Cosine similarity is used to find and recommend similar movies.
-- The user selects a movie through Streamlit and receives top 5 similar movies as recommendations.
+- Personalized movie recommendations based on user preferences
+- Collaborative filtering and content-based filtering techniques
+- User-friendly command-line and/or web interface (specify your UI)
+- Dataset integration from popular movie datasets (e.g., MovieLens)
+- Efficient handling of large datasets using optimized algorithms
+- Interactive movie search with filtering by genre, year, rating, etc.
+- Scalable design for further extension with deep learning models
 
-Credits:
-- The Movie Database (TMDB) for the dataset.
-- Scikit-learn and Streamlit communities.
+---
+
+## 🚀 How To Use
+
+### Prerequisites
+
+- Python 3.7+
+- pip package manager
+
+### Setup Instructions
+
+```bash
+# Clone this repository
+git clone https://github.com/AbhinavJShah/Movie-Recommendation-System.git
+
+# Navigate to the project directory
+cd Movie-Recommendation-System
+
+# Install required dependencies
+pip install -r requirements.txt
+
+# Run the recommendation system
+python app.py
+Note:
+Replace app.py with your main script filename if different.
+
+🛠 Technologies Used
+Python
+
+pandas, numpy (Data manipulation)
+
+scikit-learn (Machine learning algorithms)
+
+Flask / Streamlit (If you have a web app front end)
+
+Jupyter Notebook (For exploration and prototyping)
+
+
+<p align="center"> Made with ❤️ and 🍿 for movie lovers </p> ```
