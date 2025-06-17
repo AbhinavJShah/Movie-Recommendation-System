@@ -1,7 +1,6 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/AbhinavJShah/Movie-Recommendation-System">
-    <img src="https://raw.githubusercontent.com/AbhinavJShah/Movie-Recommendation-System/main/assets/logo.png" alt="Movie Recommendation System" width="200">
   </a>
   <br>
   Movie Recommendation System
@@ -75,7 +74,7 @@ pandas, numpy (Data manipulation)
 
 scikit-learn (Machine learning algorithms)
 
-Flask / Streamlit (If you have a web app front end)
+Streamlit
 
 Jupyter Notebook (For exploration and prototyping)
 
